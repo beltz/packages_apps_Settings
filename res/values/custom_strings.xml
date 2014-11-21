@@ -33,4 +33,8 @@
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
+    <!-- Status bar quick qs pulldown -->
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+
   </resources>
