@@ -299,4 +299,8 @@
    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
    <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
 
+   <!-- Advanced reboot options -->
+   <string name="advanced_reboot_title">Advanced reboot</string>
+   <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
+
 </resources>
