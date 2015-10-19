@@ -1012,8 +1012,8 @@
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Phone status"</string>
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"System updates"</string>
     <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
-    <string name="firmware_version" msgid="4801135784886859972">"Android version"</string>
-    <string name="security_patch" msgid="8438384045870296634">"Android security patch level"</string>
+    <string name="firmware_version" msgid="4801135784886859972">"Version"</string>
+    <string name="security_patch" msgid="8438384045870296634">"Security patch level"</string>
     <string name="model_info" msgid="1952009518045740889">"Model"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"Equipment ID"</string>
     <string name="baseband_version" msgid="1848990160763524801">"Baseband version"</string>
