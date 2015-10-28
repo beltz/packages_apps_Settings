@@ -49,15 +49,15 @@
             android:fragment="com.android.settings.custom.BatteryLightSettings"
             android:title="@string/abc_battery_light_settings" />
 
+    <PreferenceScreen
+        android:key="status_bar"
+        android:fragment="com.android.settings.custom.StatusBar"
+        android:title="@string/status_bar_settings_title" />
+
         <com.android.settings.widget.MasterSwitchPreference
             android:fragment="com.android.settings.fuelgauge.BatterySaverSettings"
             android:key="battery_saver_summary"
             android:title="@string/battery_saver"/>
-
-        <SwitchPreference
-            android:key="battery_percentage"
-            android:title="@string/battery_percentage"
-            android:summary="@string/battery_percentage_description"/>
 
     </PreferenceCategory>
 
