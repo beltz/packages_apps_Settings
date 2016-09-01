@@ -32,4 +32,7 @@
     <!-- Model Name -->
     <string name="model_name">Model name</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
 </resources>
