@@ -89,12 +89,6 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
-        <com.android.settings.preference.SystemSettingSwitchPreference
-                android:key="remove_tile_summary"
-                android:title="@string/remove_tile_summaries_title"
-                android:summary="@string/remove_tile_summaries_summary"
-                android:defaultValue="false" />
-
         <DropDownPreference
                 android:key="auto_rotate"
                 android:summary="%s"
@@ -110,6 +104,24 @@
                 android:key="vr_display_pref"
                 android:summary="%s"
                 android:title="@string/display_vr_pref_title" />
+
+        <PreferenceCategory
+                android:key="dashboard_category"
+                android:title="@string/dashboard_category">
+
+       <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="disable_suggestions"
+                android:title="@string/disable_suggestions_title"
+                android:summary="@string/disable_suggestions_summary"
+                android:defaultValue="false" />
+
+        <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="remove_tile_summary"
+                android:title="@string/remove_tile_summaries_title"
+                android:summary="@string/remove_tile_summaries_summary"
+                android:defaultValue="false" />
+
+        </PreferenceCategory>
 
         <PreferenceCategory
                 android:key="density_category"
