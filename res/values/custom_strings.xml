@@ -67,4 +67,7 @@
     <string name="advanced_category">Advanced</string>
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
     <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 </resources>
