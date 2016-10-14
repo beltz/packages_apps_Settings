@@ -119,6 +119,11 @@
                 android:summary="@string/powermenu_lockscreen_summary"
                 android:defaultValue="false" />
 
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.LockScreenItemsSettings"
+            android:key="lockscreen_items"
+            android:title="@string/lockscreen_items_settings_title" />
+
         <Preference android:key="manage_trust_agents"
                 android:title="@string/manage_trust_agents"
                 android:summary="@string/manage_trust_agents_summary"
