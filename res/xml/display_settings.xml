@@ -105,6 +105,11 @@
                 android:summary="%s"
                 android:title="@string/display_vr_pref_title" />
 
+     <PreferenceScreen
+        android:key="misc_tweaks"
+        android:fragment="com.dirtyunicorns.dutweaks.fragments.MiscTweaks"
+        android:title="@string/screenshot_title" />
+
         <PreferenceCategory
                 android:key="dashboard_category"
                 android:title="@string/dashboard_category">
