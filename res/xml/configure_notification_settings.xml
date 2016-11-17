@@ -38,15 +38,28 @@
             android:title="@string/force_expanded_notifications_title"
             android:summary="@string/force_expanded_notifications_summary" />
 
-    <!-- Pulse notification light -->
-    <SwitchPreference
-            android:key="notification_pulse"
-            android:title="@string/notification_pulse_title" />
-
     <!-- When device is locked -->
     <com.android.settings.notification.RestrictedDropDownPreference
             android:key="lock_screen_notifications"
             android:title="@string/lock_screen_notifications_title"
             android:summary="%s" />
+
+        <PreferenceCategory
+                android:key="leds"
+                android:title="@string/ledsettings_category" >
+
+        <PreferenceScreen
+                android:key="charging_light"
+                android:title="@string/battery_light_settings_title"
+                android:summary="@string/battery_light_settings_summary"
+                android:fragment="com.android.settings.batterylight.BatteryLightSettings" />
+
+        <PreferenceScreen
+                android:key="notification_light"
+                android:title="@string/notification_light_settings_title"
+                android:summary="@string/notification_light_settings_summary"
+                android:fragment="com.android.settings.batterylight.NotificationLightSettings" />
+
+        </PreferenceCategory>
 
 </PreferenceScreen>
