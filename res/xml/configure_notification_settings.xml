@@ -19,6 +19,12 @@
         android:title="@string/configure_notification_settings"
         android:key="configure_notification_settings" >
 
+    <com.android.settings.preference.SystemSettingSwitchPreference
+        android:key="status_bar_quick_qs_pulldown"
+        android:title="@string/status_bar_quick_qs_pulldown_title"
+        android:summary="@string/status_bar_quick_qs_pulldown_summary"
+        android:defaultValue="true" />
+
     <!-- Pulse notification light -->
     <SwitchPreference
             android:key="notification_pulse"
