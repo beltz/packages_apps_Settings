@@ -83,5 +83,5 @@
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
     <!-- Hide power menu -->
     <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
-    <string name="powermenu_lockscreen_summary">Show power menu on the lock screen</string>
+    <string name="powermenu_lockscreen_summary">Disable power menu on the lock screen</string>
 </resources>
