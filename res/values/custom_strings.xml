@@ -57,4 +57,10 @@
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Tap navigation bar to sleep</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double-tap on the navigation bar to put the device to sleep</string>
+    <!-- Double Tap Status Bar to Sleep -->
+    <string name="double_tap_to_sleep_title">Tap status bar to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double-tap on the status bar to put the device to sleep </string>
 </resources>
