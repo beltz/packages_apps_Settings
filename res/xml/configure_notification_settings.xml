@@ -29,6 +29,13 @@
             android:summary="@string/less_boring_heads_up_summary"
             android:defaultValue="true" />
 
+    <!-- Force expanded notifications -->
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+            android:title="@string/force_expanded_notifications_title"
+            android:summary="@string/force_expanded_notifications_summary"
+        android:defaultValue="false" />
+
     <!-- Notification badging -->
     <SwitchPreference
         android:key="notification_badging"
