@@ -256,4 +256,20 @@
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
 
+    <!-- Option to show full do not disturb panel in volume panel -->
+    <string name="tuner_full_zen_title">Show with volume controls</string>
+
+    <!-- Do not disturb volume shorcut -->
+    <string name="volume_dnd_silent">Volume buttons shortcut</string>
+
+    <!-- Option to show brightness bar in quick settings -->
+    <string name="show_brightness">Show brightness in Quick Settings</string>
+
+    <!-- SystemUI Tuner Parts -->
+    <string name="systemui_tuner_statusbar_title">Status bar items</string>
+    <string name="systemui_tuner_statusbar_summary">Show/hide status bar items</string>
+    <string name="systemui_tuner_navbar_title">Navigation bar items</string>
+    <string name="systemui_tuner_navbar_summary">Edit navigation bar items</string>
+    <string name="systemui_tuner_other_title">Other</string>
+
 </resources>
