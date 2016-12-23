@@ -45,4 +45,6 @@
     <string name="filter_substratum_icons">Substratum icon overlays</string>
     <string name="menu_show_substratum_icons">Show icon overlays</string>
     <string name="menu_hide_substratum_icons">Hide icon overlays</string>
+    <!-- External Icon Tint -->
+    <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
 </resources>
