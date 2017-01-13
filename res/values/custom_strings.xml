@@ -308,4 +308,8 @@
    <string name="dev_advanced_settings_summary">For the experienced user</string>
    <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
 
+   <!-- Double tap on doze -->
+   <string name="double_tap_wake_doze_title">Double-tap to wake on doze</string>
+   <string name="double_tap_wake_doze_summary">Require a double-tap to wake the device on a doze pulse screen</string>
+
 </resources>
