@@ -321,4 +321,8 @@
     <string name="night_bright_medium">Medium brightness</string>
     <string name="night_bright_min">Minimum brightness</string>
 
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
+    <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+
 </resources>
