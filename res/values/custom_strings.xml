@@ -323,7 +323,7 @@
 
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+    <string name="pixel_navbar_anim_summary">Enables the pixel navbar animation</string>
 
     <!-- Navbar toggle -->
     <string name="navbar_enable_bar">Enable</string>
