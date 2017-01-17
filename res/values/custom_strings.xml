@@ -347,4 +347,8 @@
     <string name="navigation_bar_opt_cat">Navigation bar options</string>
     <string name="navigation_bar_cus">Navigation bar customizations</string>
 
+    <!-- One handed mode -->
+    <string name="one_handed_mode_title">One Handed mode</string>
+    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>  
+
 </resources>
