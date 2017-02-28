@@ -363,4 +363,8 @@
     <!-- Advanced - Wireless & Networks -->
     <string name="advanced_options_title">Advanced options</string>
 
+    <!-- Beltz Logo -->
+    <string name="status_bar_beltz_logo_title">Beltz logo</string>
+    <string name="status_bar_beltz_logo_summary">Enable to show Beltz logo on the left side of the statusbar</string>
+
 </resources>
