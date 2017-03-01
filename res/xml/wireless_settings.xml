@@ -111,6 +111,13 @@
     <PreferenceCategory
         android:title="@string/advanced_options_title" />
 
+        <com.android.settings.preference.SystemSettingSwitchPreference
+            android:key="data_activity_arrows"
+            android:title="@string/data_wifi_activity_arrows_title"
+            android:summaryOn="@string/data_wifi_activity_arrows_summary_on"
+            android:summaryOff="@string/data_wifi_activity_arrows_summary_off"
+            android:defaultValue="false" />
+
      <PreferenceScreen
         android:fragment="com.pure.settings.fragments.CarrierLabelSettings"
         android:key="pure_carrier_label_settings"
