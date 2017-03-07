@@ -34,12 +34,12 @@
 
     <!-- Status bar quick qs pulldown -->
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down quick settings</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="summary_heads_up_enabled">Pop up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop up notifications are disabled</string>
 
     <!-- Dashboard summaries -->
     <string name="remove_tile_summaries_title">Remove tile summaries</string>
@@ -56,10 +56,10 @@
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Tap navigation bar to sleep</string>
-    <string name="double_tap_sleep_nav_bar_summary">Double-tap on the navigation bar to put the device to sleep</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double tap on the navigation bar to put the device to sleep</string>
     <!-- Double Tap Status Bar to Sleep -->
     <string name="double_tap_to_sleep_title">Tap status bar to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double-tap on the status bar to put the device to sleep </string>
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep </string>
     <!-- Volume button orientation based on current rotation -->
     <string name="advanced_category">Advanced</string>
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
@@ -69,32 +69,32 @@
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
     <!-- Volume key cursor control -->
     <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
     <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
     <!-- Force expanded notifications -->
-    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
+    <string name="force_expanded_notifications_title">Force expanded notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
     <!-- Hide power menu -->
     <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
     <string name="powermenu_lockscreen_summary">Disable power menu on the lock screen</string>
     <!-- Development options - kill app long press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long pressing the back key</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
+    <string name="lockscreen_items_settings_title">Lock screen items</string>
+    <string name="lockscreen_clock_title">Lock screen clock</string>
+    <string name="lockscreen_date_title">Lock screen date</string>
+    <string name="lockscreen_alarm_title">Lock screen alarm text</string>
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_title">Lock screen clock font</string>
+    <string name="lock_clock_font_summary">Change the default font of the lock screen clock widget</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto Bold</string>
     <string name="lock_clock_font_italic">Roboto Italic</string>
@@ -202,7 +202,7 @@
     <!-- Clock Settings -->
     <string name="time_group_title">Time configuration</string>
     <string name="clock_group_title">Clock appearance</string>
-    <string name="clock_show_title">Show clock in statusbar</string>
+    <string name="clock_show_title">Show clock in status bar</string>
     <string name="clock_seconds_title">Show seconds</string>
     <string name="clock_style_title">Alignment</string>
     <string name="clock_style_right_clock">Right clock</string>
@@ -233,7 +233,7 @@
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="network_traffic_summary">Enable various network traffic options in status bar</string>
     <string name="show_network_traffic_unit">Display unit</string>
     <string name="show_network_traffic_frequency">Update interval</string>
     <string name="show_network_traffic_disable">Disabled</string>
@@ -257,7 +257,7 @@
     <string name="volume_dnd_silent">Volume buttons shortcut</string>
 
     <!-- Option to show brightness bar in quick settings -->
-    <string name="show_brightness">Show brightness in Quick Settings</string>
+    <string name="show_brightness">Show brightness in quick settings</string>
 
     <!-- SystemUI Tuner Parts -->
     <string name="systemui_tuner_statusbar_title">Status bar items</string>
@@ -291,7 +291,7 @@
 
    <!-- Gesture Settings -->
    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
-   <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
+   <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double twist when you’re in the app</string>
 
    <!-- Advanced reboot options -->
    <string name="advanced_reboot_title">Advanced reboot</string>
@@ -303,16 +303,16 @@
    <!-- Advanced settings (former: Developer options) -->
    <string name="dev_advanced_settings_title">@string/advanced_section_header</string>
    <string name="dev_advanced_settings_summary">For the experienced user</string>
-   <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
+   <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default</string>
 
    <!-- Double tap on doze -->
    <string name="double_tap_wake_doze_title">Double-tap to wake on doze</string>
-   <string name="double_tap_wake_doze_summary">Require a double-tap to wake the device on a doze pulse screen</string>
+   <string name="double_tap_wake_doze_summary">Require a double tap to wake the device on a doze pulse screen</string>
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
-    <string name="night_brightness_value_title">Night Light brightness</string>
-    <string name="night_brightness_text">When Night Light is enabled automatically set the desired brightness. The default brightness is set to low brightness</string>
+    <string name="night_brightness_value_title">Night light brightness</string>
+    <string name="night_brightness_text">When night light is enabled automatically set the desired brightness. The default brightness is set to low brightness</string>
     <string name="night_bright_disabled">Disabled</string>
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
@@ -341,7 +341,7 @@
     <string name="navigation_bar_cus">Navigation bar customizations</string>
 
     <!-- One handed mode -->
-    <string name="one_handed_mode_title">One Handed mode</string>
+    <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>  
 
     <!-- Brightness control -->
@@ -349,26 +349,26 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_title">Carrier label</string>
     <string name="carrier_label_settings_summary">Customize the carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
     <string name="show_carrier_title">Carrier label</string>
     <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <string name="show_carrier_keyguard">Lock screen only</string>
+    <string name="show_carrier_statusbar">Status bar only</string>
+    <string name="show_carrier_enabled">Lock screen &amp; status bar</string>
 
     <!-- Advanced - Wireless & Networks -->
     <string name="advanced_options_title">Advanced options</string>
 
     <!-- Beltz Logo -->
     <string name="status_bar_beltz_logo_title">Beltz logo</string>
-    <string name="status_bar_beltz_logo_summary">Enable to show Beltz logo on the left side of the statusbar</string>
+    <string name="status_bar_beltz_logo_summary">Enable to show beltz logo on the left side of the status bar</string>
 
     <!-- Data/Wifi activity arrows -->
-    <string name="data_wifi_activity_arrows_title">Data/Wifi activity arrows</string>
+    <string name="data_wifi_activity_arrows_title">Data/wifi activity arrows</string>
     <string name="data_wifi_activity_arrows_summary_on">Show data/wifi activity arrows</string>
     <string name="data_wifi_activity_arrows_summary_off">Hide data/wifi activity arrows</string>
 
