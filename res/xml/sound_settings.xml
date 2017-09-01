@@ -114,6 +114,12 @@
           android:key="volume_adjust_sounds"
           android:title="@string/volume_adjust_sounds_title" />
 
+        <!-- Vloume swap rotation -->
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons"
+        android:defaultValue="true" />
+
         <!-- Screenshot sound -->
     <com.android.settings.preferences.SystemSettingSwitchPreference
           android:key="screenshot_sound"
