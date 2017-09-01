@@ -116,6 +116,12 @@
           android:key="docking_sounds"
           android:title="@string/docking_sounds_title" />
 
+        <!-- Vloume swap rotation -->
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+          android:key="swap_volume_buttons"
+          android:title="@string/swap_volume_buttons"
+          android:defaultValue="true" />
+
         <!-- Touch sounds -->
         <SwitchPreference
           android:key="touch_sounds"
