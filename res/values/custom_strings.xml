@@ -234,4 +234,7 @@
     <!-- Volume swap -->
     <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
 
+    <!-- Playback control -->
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+
 </resources>
