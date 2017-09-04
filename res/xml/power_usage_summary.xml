@@ -54,6 +54,11 @@
             android:title="@string/battery_percentage"
             android:summary="@string/battery_percentage_description"/>
 
+        <Preference
+            android:key="abc_charging_light"
+            android:fragment="com.android.settings.custom.BatteryLightSettings"
+            android:title="@string/abc_battery_light_settings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
