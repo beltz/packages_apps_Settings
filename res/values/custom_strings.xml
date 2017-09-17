@@ -40,6 +40,7 @@
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
     <!-- Custom light color -->
+    <string name="notification_light_settings">Notifications light</string>
     <string name="light_customization">Led light notification</string>
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">"Light ON time during led pulse (ms)"</string>
