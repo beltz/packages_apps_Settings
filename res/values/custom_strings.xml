@@ -270,6 +270,7 @@
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
 
     <!-- Custom light color -->
+    <string name="abc_notification_light_settings">Notifications light</string>
     <string name="light_customization">Led light notification</string>
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">"Light ON time during led pulse (ms)"</string>
