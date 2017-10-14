@@ -14,4 +14,6 @@
 
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
+    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
+
   </resources>
