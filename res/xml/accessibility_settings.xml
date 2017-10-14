@@ -81,6 +81,11 @@
                 android:title="@string/accelerometer_title"
                 android:persistent="false"/>
 
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+                android:key="double_tap_sleep_lockscreen"
+                android:title="@string/double_tap_sleep_lockscreen"
+                android:defaultValue="true" />
+
         <ListPreference
                 android:key="select_long_press_timeout_preference"
                 android:title="@string/accessibility_long_press_timeout_preference_title"
