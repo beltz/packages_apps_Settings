@@ -368,4 +368,7 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
+    <!-- Pixel color on sim card -->
+    <string name="default_sim_color">Pixel</string>
+
 </resources>
