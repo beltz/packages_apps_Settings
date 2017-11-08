@@ -28,10 +28,26 @@
         android:title="@string/lock_screen_notifications_title"
         android:summary="@string/summary_placeholder"/>
 
+    <!-- Default notification ringtone -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="notification_default_ringtone"
+        android:title="@string/notification_ringtone_title"
+        android:dialogTitle="@string/notification_ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="notification" />
+
     <!-- Notification badging -->
     <SwitchPreference
         android:key="notification_badging"
         android:title="@string/notification_badging_title"/>
+
+    <!-- Heads up -->
+    <com.android.settings.preferences.GlobalSettingSwitchPreference
+        android:key="heads_up_notifications_enabled"
+        android:title="@string/heads_up_title"
+        android:summaryOn="@string/heads_up_summary_enabled"
+        android:summaryOff="@string/heads_up_summary_disabled"
+        android:defaultValue="true" />
 
     <!-- Quick pulldown -->
     <com.android.settings.preferences.SystemSettingSwitchPreference
@@ -50,14 +66,6 @@
         android:key="notification_light"
         android:fragment="com.android.settings.applications.NotificationApps"
         android:title="@string/notification_light_settings" />
-
-    <!-- Default notification ringtone -->
-    <com.android.settings.DefaultRingtonePreference
-        android:key="notification_default_ringtone"
-        android:title="@string/notification_ringtone_title"
-        android:dialogTitle="@string/notification_ringtone_title"
-        android:summary="@string/summary_placeholder"
-        android:ringtoneType="notification" />
 
     <Preference
         android:key="gesture_swipe_down_fingerprint_notifications"
