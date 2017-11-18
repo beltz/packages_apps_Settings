@@ -295,4 +295,8 @@
     <string name="notification_sound_vib_screen_on_title">Allow notification</string>
     <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is on</string>
 
+    <!-- Option to show brightness bar in quick settings -->
+    <string name="show_brightness_title">Brightness slider</string>
+    <string name="show_brightness_summary">Show the brightness slider</string>
+
 </resources>
