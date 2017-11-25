@@ -301,4 +301,7 @@
     <string name="show_brightness_title">Brightness slider</string>
     <string name="show_brightness_summary">Show the brightness slider</string>
 
+    <!-- SIM selector for SMS -->
+    <string name="select_sim_for_sms">Select a SIM for SMS</string>
+
 </resources>
