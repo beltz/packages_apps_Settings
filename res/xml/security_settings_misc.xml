@@ -31,6 +31,12 @@
             android:title="@string/show_password"
             android:summary="@string/show_password_summary"/>
 
+        <com.android.settings.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_power_menu_disabled"
+            android:title="@string/lockscreen_power_menu_disabled_title"
+            android:summary="@string/lockscreen_power_menu_disabled_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/personal_device_admin_title"
