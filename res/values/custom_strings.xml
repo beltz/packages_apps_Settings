@@ -248,6 +248,7 @@
 
     <!-- Double tap -->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_gesture_title">Double tap status bar to sleep</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
