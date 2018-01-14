@@ -18,6 +18,7 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -25,12 +26,18 @@ import android.os.Message;
 import android.os.UserHandle;
 import android.preference.SeekBarVolumizer;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.TwoStatePreference;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
+import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -40,11 +47,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SoundSettings extends DashboardFragment {
+public class SoundSettings extends DashboardFragment implements OnPreferenceChangeListener {
     private static final String TAG = "SoundSettings";
 
     //private static final String KEY_CELL_BROADCAST_SETTINGS = "cell_broadcast_settings";
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
+    private static final String KEY_RAMP_UP_TIME = "increasing_ring_ramp_up";
     private static final int REQUEST_CODE = 200;
 
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
@@ -53,6 +61,7 @@ public class SoundSettings extends DashboardFragment {
     private final H mHandler = new H();
 
     private RingtonePreference mRequestPreference;
+    private ListPreference mRampUpTime;
 
     @Override
     public void onAttach(Context context) {
@@ -74,6 +83,14 @@ public class SoundSettings extends DashboardFragment {
                 mRequestPreference = (RingtonePreference) findPreference(selectedPreference);
             }
         }
+
+        mRampUpTime = (ListPreference) findPreference(KEY_RAMP_UP_TIME);
+        int ramUpTime = Settings.System.getInt(getContentResolver(),
+                Settings.System.INCREASING_RING_RAMP_UP_TIME, 10);
+
+        mRampUpTime.setValue(Integer.toString(ramUpTime));
+        mRampUpTime.setSummary(mRampUpTime.getEntry());
+        mRampUpTime.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -224,6 +241,18 @@ public class SoundSettings extends DashboardFragment {
         controllers.add(new ScreenshotSoundPreferenceController(context, fragment, lifecycle));
 
         return controllers;
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mRampUpTime) {
+            int value = Integer.valueOf((String) newValue);
+            int index = mRampUpTime.findIndexOfValue((String) newValue);
+            mRampUpTime.setSummary(mRampUpTime.getEntries()[index]);
+            Settings.System.putInt(getContentResolver(), Settings.System.INCREASING_RING_RAMP_UP_TIME, value);
+            return true;
+        }
+        return false;
     }
 
     // === Indexing ===
