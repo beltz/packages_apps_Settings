@@ -323,4 +323,7 @@
     <string name="force_ambient_for_media_on_forced">Normal (forced)</string>
     <string name="force_ambient_for_media_on_forced_clean">Minimal (forced)</string>
 
+    <!-- Wireless charging sound -->
+    <string name="wireless_charging_sounds_title">Wireless charging sounds</string>
+
 </resources>
