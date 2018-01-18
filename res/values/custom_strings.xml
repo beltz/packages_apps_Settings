@@ -251,8 +251,8 @@
     <string name="double_tap_sleep_gesture_title">Double tap status bar to sleep</string>
 
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Make heads up less annoying</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+    <string name="less_boring_heads_up_title">Better heads up</string>
+    <string name="less_boring_heads_up_summary">Show only for dialer or messaging app when they are not in foreground</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
