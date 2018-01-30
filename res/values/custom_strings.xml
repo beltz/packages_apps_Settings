@@ -371,4 +371,8 @@
      <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 
+    <!-- Face auto unlock -->
+    <string name="face_auto_unlock_title">Face auto unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+
 </resources>
