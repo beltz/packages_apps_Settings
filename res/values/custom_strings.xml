@@ -368,4 +368,7 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
+     <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
 </resources>
