@@ -45,13 +45,6 @@
         android:entryValues="@array/less_notification_sounds_values"
         android:persistent="false" />
 
-    <!-- Suppress notifications -->
-    <com.android.settings.preferences.SystemSettingSwitchPreference
-            android:key="notification_sound_vib_screen_on"
-            android:title="@string/notification_sound_vib_screen_on_title"
-            android:summary="@string/notification_sound_vib_screen_on_summary"
-            android:defaultValue="true" />
-
     <!-- Notification badging -->
     <SwitchPreference
         android:key="notification_badging"
