@@ -52,6 +52,13 @@
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
 
+        <!-- Playback control -->
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+          android:key="volume_button_music_control"
+          android:title="@string/volume_rocker_music_controls_title"
+          android:summary="@string/volume_rocker_music_controls_summary"
+          android:defaultValue="true" />
+
         <!-- Vloume swap rotation -->
         <com.android.settings.preferences.SystemSettingSwitchPreference
           android:key="swap_volume_buttons"

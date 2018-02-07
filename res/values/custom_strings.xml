@@ -252,4 +252,8 @@
     <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
     <string name="swap_volume_buttons_summary">Change the order of volume buttons according of screen rotation</string>
 
+    <!-- Playback control -->
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+
 </resources>
