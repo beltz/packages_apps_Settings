@@ -33,6 +33,13 @@
         android:summary="@string/show_brightness_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_show_brightness_icon"
+        android:title="@string/brightness_icon_title"
+        android:summary="@string/brightness_icon_summary"
+        android:dependency="qs_show_brightness"
+        android:defaultValue="false"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
